@@ -1,0 +1,41 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+/*variables*/
+:root{
+    --FuenteKoho: 'KoHo', sans-serif;
+    --FuenteChela: 'Chela One', cursive;
+}
+.navbar {
+    background-color: #34495e;
+}
+/*titulo */
+.navbar-brand { 
+    color: #fff;
+    font: bold 32px var(--FuenteKoho);
+    letter-spacing: 3.5px;
+}
+.navbar-brand:hover { color: #fff }
+
+.nav-item {
+    list-style: none;
+}
+.nav-item .nav-link {
+    color: #fff;
+    font: 500 19px var(--FuenteKoho);
+}
+
+@media screen and (max-width: 800px) {
+    /*titulo */
+    .navbar-brand { 
+        color: #fff;
+        font: bold 20px var(--FuenteKoho);
+        letter-spacing: 2px;
+    }
+
+    /*usuarios*/
+    .nav-item .nav-link {
+        color: #fff;
+        font: 500 17px var(--FuenteKoho);
+    }
+}

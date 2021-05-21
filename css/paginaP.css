@@ -1,0 +1,32 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+/*variables*/
+:root{
+    --FuenteKoho: 'KoHo', sans-serif;
+    --FuenteChela: 'Chela One', cursive;
+}
+/*contenido*/
+.titulo h2 {
+    font: bolder 3em var(--FuenteKoho);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/*encabezados de la tabla*/
+tr th {
+    font: 600 14px var(--FuenteKoho);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/*queries*/
+@media screen and (max-width: 800px) {
+    .titulo h2 {
+        font: bolder 2em var(--FuenteKoho); 
+    }
+    tr th {
+        font: 600 8px var(--FuenteKoho);
+        letter-spacing: 0;
+    }
+}

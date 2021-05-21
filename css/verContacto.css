@@ -1,0 +1,103 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+/*variables*/
+:root {
+    --fuenteTeko: 'Teko', sans-serif;
+    --feuenteNotosans: 'Noto Sans KR', sans-serif;
+    --borde: 1.5px solid #000;
+}
+/*contenido*/
+.navbar {
+    box-shadow: 1.5px 1.5px 6px 1.5px rgba(0, 0, 0, 0.25);
+}
+#contenedor-titulo a {
+    color: #000;
+    font: 500 30px var(--fuenteTeko);
+    letter-spacing: 1.5px;
+}
+
+/*tarjeta*/
+.tarjeta {
+    align-items: center;
+    display: flex;
+    height: 75vh;
+    justify-content: center;
+}
+.tarjeta .tarjeta-contacto {
+    background: rgba( 17, 16, 16, 0.00 );
+    box-shadow: 1.5px 8px 32px 5px rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.tarjeta-contacto .foto {
+    display: block;    
+}
+.foto img {
+    box-shadow: 0px 1.5px 7px rgba(0,0,0, 0.54);
+    width: 70%;
+}
+
+hr {
+    border: 1px dashed gray;
+}
+
+.tarjeta-contacto .nombre {
+    display: block;
+    font: 500 18px var(--feuenteNotosans);
+    letter-spacing: 1.5px;
+}
+.tarjeta-contacto .cedula {
+    display: block;
+    font: 500 18px var(--feuenteNotosans);
+    letter-spacing: 1.5px;
+}
+.tarjeta-contacto .telefono {
+    display: block;
+    font: 500 18px var(--feuenteNotosans);
+    letter-spacing: 1.5px;
+}
+.tarjeta-contacto .correo {
+    display: block;
+    font: 500 18px var(--feuenteNotosans);
+    letter-spacing: 1.5px;
+}
+.tarjeta-contacto .ciudad {
+    display: block;
+    font: 500 18px var(--feuenteNotosans);
+    letter-spacing: 1.5px;
+}
+.tarjeta-contacto .salario {
+    display: block;
+    font: 500 18px var(--feuenteNotosans);
+    letter-spacing: 1.5px;
+}
+.tarjeta-contacto .fecha {
+    display: block;
+    font: 500 18px var(--feuenteNotosans);
+    letter-spacing: 1.5px;
+}
+
+
+/*boton*/
+.boton-editar {
+    display: block;
+}
+.boton-editar button {
+    background-color: #1289A7;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+button a {
+    color: #ffffff;
+    font: 500 22px var(--fuenteTeko);
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
